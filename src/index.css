@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Space Grotesk', -apple-system, sans-serif;
+    --font-tech: 'JetBrains Mono', 'Chivo Mono', monospace;
+    --font-dot: 'DotGothic16', 'JetBrains Mono', monospace;
+    --font-body: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Helvetica Neue', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: #111111;
+    background-color: #fafafa;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-ntype {
+  font-family: var(--font-heading);
+  letter-spacing: -0.035em;
+}
+
+.font-dotmatrix {
+  font-family: var(--font-dot);
+  letter-spacing: 0.05em;
+}
+
+.font-tech-mono {
+  font-family: var(--font-tech);
+  letter-spacing: -0.01em;
+}
+
+.font-apple-body {
+  font-family: var(--font-body);
+}
+
+/* Minimal industrial hairline rules and scrollbars */
+::selection {
+  background: #111111;
+  color: #ffffff;
+}

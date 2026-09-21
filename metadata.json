@@ -1,0 +1,6 @@
+{
+  "name": "Elizabeth — About",
+  "description": "About Elizabeth: a minimalist study helper built around active recall, voice evaluation, and test practice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
